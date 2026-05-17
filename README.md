@@ -1,2 +1,2 @@
 # fchb1239islazy
-he is though
+(btw this is all a joke dont take it seriously)
