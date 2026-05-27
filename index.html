@@ -19,6 +19,30 @@
     <script>
     src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"
     </script>
+    <script>
+            particlesJS('particles-js', {
+            "particles": {
+                "number": { "value": 80, "density": { "enable": true, "value_area": 800 }},
+                "color": { "value": "#9c88cc" },
+                "shape": { "type": "circle", "stroke": { "width": 0, "color": "#000" }},
+                "opacity": { "value": 0.5 },
+                "size": { "value": 5, "random": true },
+                "line_linked": { "enable": true, "distance": 150, "color": "#9c88cc", "opacity": 0.5, "width": 1 },
+                "move": { "enable": true, "speed": 1 }
+            },
+            "interactivity": {
+                "events": {
+                "onhover": { "enable": true, "mode": "repulse" },
+                "onclick": { "enable": true, "mode": "push" }
+                },
+                "modes": {
+                "repulse": { "distance": 200 },
+                "push": { "particles_nb": 4 }
+                }
+            },
+            "retina_detect": true
+            });
+        </script>
         <script>
         updateTimeSince("2025-7-3", "gwTimer")
         updateTimeSince("2025-7-5", "grTimer")
